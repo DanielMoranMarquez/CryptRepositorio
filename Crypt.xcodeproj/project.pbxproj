@@ -13,6 +13,7 @@
 		2BE40CFD29F1728300AB6CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE40CFB29F1728300AB6CA7 /* Main.storyboard */; };
 		2BE40CFF29F1728400AB6CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE40CFE29F1728400AB6CA7 /* Assets.xcassets */; };
 		2BE40D0229F1728400AB6CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE40D0029F1728400AB6CA7 /* LaunchScreen.storyboard */; };
+		2BE40D0A29F17A3300AB6CA7 /* Secrets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE40D0929F17A3300AB6CA7 /* Secrets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2BE40CFE29F1728400AB6CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BE40D0129F1728400AB6CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BE40D0329F1728400AB6CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE40D0929F17A3300AB6CA7 /* Secrets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Secrets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		2BE40CE929F1728300AB6CA7 = {
 			isa = PBXGroup;
 			children = (
+				2BE40D0929F17A3300AB6CA7 /* Secrets */,
 				2BE40CF429F1728300AB6CA7 /* Crypt */,
 				2BE40CF329F1728300AB6CA7 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BE40D0A29F17A3300AB6CA7 /* Secrets in Resources */,
 				2BE40D0229F1728400AB6CA7 /* LaunchScreen.storyboard in Resources */,
 				2BE40CFF29F1728400AB6CA7 /* Assets.xcassets in Resources */,
 				2BE40CFD29F1728300AB6CA7 /* Main.storyboard in Resources */,
