@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B55A56B29F2796A009D9D8C /* Hidding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B55A56A29F2796A009D9D8C /* Hidding.swift */; };
-		2B55A56E29F27A48009D9D8C /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B55A56D29F27A48009D9D8C /* Keys.swift */; };
+		2B55A57729F2AE51009D9D8C /* Script in Resources */ = {isa = PBXBuildFile; fileRef = 2B55A57629F2AE51009D9D8C /* Script */; };
+		2B55A57929F2B273009D9D8C /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B55A57829F2B273009D9D8C /* Keys.swift */; };
 		2BE40CF629F1728300AB6CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE40CF529F1728300AB6CA7 /* AppDelegate.swift */; };
 		2BE40CF829F1728300AB6CA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE40CF729F1728300AB6CA7 /* SceneDelegate.swift */; };
 		2BE40CFA29F1728300AB6CA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE40CF929F1728300AB6CA7 /* ViewController.swift */; };
 		2BE40CFD29F1728300AB6CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE40CFB29F1728300AB6CA7 /* Main.storyboard */; };
 		2BE40CFF29F1728400AB6CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE40CFE29F1728400AB6CA7 /* Assets.xcassets */; };
 		2BE40D0229F1728400AB6CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE40D0029F1728400AB6CA7 /* LaunchScreen.storyboard */; };
-		2BE40D0A29F17A3300AB6CA7 /* Secrets2 in Resources */ = {isa = PBXBuildFile; fileRef = 2BE40D0929F17A3300AB6CA7 /* Secrets2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B55A56A29F2796A009D9D8C /* Hidding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidding.swift; sourceTree = "<group>"; };
-		2B55A56D29F27A48009D9D8C /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		2B55A57629F2AE51009D9D8C /* Script */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Script; sourceTree = "<group>"; };
+		2B55A57829F2B273009D9D8C /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		2BE40CF229F1728300AB6CA7 /* Crypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE40CF529F1728300AB6CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BE40CF729F1728300AB6CA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +28,6 @@
 		2BE40CFE29F1728400AB6CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BE40D0129F1728400AB6CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BE40D0329F1728400AB6CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BE40D0929F17A3300AB6CA7 /* Secrets2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Secrets2; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,18 +41,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B55A56929F2793D009D9D8C /* Script */ = {
-			isa = PBXGroup;
-			children = (
-				2B55A56A29F2796A009D9D8C /* Hidding.swift */,
-			);
-			path = Script;
-			sourceTree = "<group>";
-		};
 		2B55A56C29F27A34009D9D8C /* Secrets */ = {
 			isa = PBXGroup;
 			children = (
-				2B55A56D29F27A48009D9D8C /* Keys.swift */,
+				2B55A57829F2B273009D9D8C /* Keys.swift */,
 			);
 			path = Secrets;
 			sourceTree = "<group>";
@@ -62,9 +52,8 @@
 		2BE40CE929F1728300AB6CA7 = {
 			isa = PBXGroup;
 			children = (
+				2B55A57629F2AE51009D9D8C /* Script */,
 				2B55A56C29F27A34009D9D8C /* Secrets */,
-				2B55A56929F2793D009D9D8C /* Script */,
-				2BE40D0929F17A3300AB6CA7 /* Secrets2 */,
 				2BE40CF429F1728300AB6CA7 /* Crypt */,
 				2BE40CF329F1728300AB6CA7 /* Products */,
 			);
@@ -99,6 +88,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BE40D0629F1728400AB6CA7 /* Build configuration list for PBXNativeTarget "Crypt" */;
 			buildPhases = (
+				2B55A57529F2AB52009D9D8C /* Saving plist */,
 				2BE40CEE29F1728300AB6CA7 /* Sources */,
 				2BE40CEF29F1728300AB6CA7 /* Frameworks */,
 				2BE40CF029F1728300AB6CA7 /* Resources */,
@@ -150,14 +140,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BE40D0A29F17A3300AB6CA7 /* Secrets2 in Resources */,
 				2BE40D0229F1728400AB6CA7 /* LaunchScreen.storyboard in Resources */,
 				2BE40CFF29F1728400AB6CA7 /* Assets.xcassets in Resources */,
 				2BE40CFD29F1728300AB6CA7 /* Main.storyboard in Resources */,
+				2B55A57729F2AE51009D9D8C /* Script in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B55A57529F2AB52009D9D8C /* Saving plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Script/Hidding.swift",
+			);
+			name = "Saving plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "xcrun --sdk macosx swiftc -parse-as-library $SCRIPT_INPUT_FILE_0 \\\n  -o Script/CompiledScript\n./Script/CompiledScript\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2BE40CEE29F1728300AB6CA7 /* Sources */ = {
@@ -165,10 +177,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BE40CFA29F1728300AB6CA7 /* ViewController.swift in Sources */,
+				2B55A57929F2B273009D9D8C /* Keys.swift in Sources */,
 				2BE40CF629F1728300AB6CA7 /* AppDelegate.swift in Sources */,
 				2BE40CF829F1728300AB6CA7 /* SceneDelegate.swift in Sources */,
-				2B55A56B29F2796A009D9D8C /* Hidding.swift in Sources */,
-				2B55A56E29F27A48009D9D8C /* Keys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
