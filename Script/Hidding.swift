@@ -26,10 +26,9 @@ enum Hidding {
           guard let _ = dict["Secreto"] as? String else { return }
             
           // 3
-            dict["Secreto"] = "tercero"
-          // 4
+            dict["Secreto"] = Secret().consumerSecret
           
-          // 5
+          // 4
           (dict as NSDictionary).write(
             toFile: projectDir + "/" + infoFile,
             atomically: true)

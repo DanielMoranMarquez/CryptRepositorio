@@ -159,6 +159,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Script/Hidding.swift",
+				"$(SRCROOT)/Secrets/Keys.swift",
 			);
 			name = "Saving plist";
 			outputFileListPaths = (
@@ -167,7 +168,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "xcrun --sdk macosx swiftc -parse-as-library $SCRIPT_INPUT_FILE_0 \\\n  -o Script/CompiledScript\n./Script/CompiledScript\n";
+			shellScript = "xcrun --sdk macosx swiftc -parse-as-library $SCRIPT_INPUT_FILE_0 $SCRIPT_INPUT_FILE_1 \\\n  -o Script/CompiledScript\n./Script/CompiledScript\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
