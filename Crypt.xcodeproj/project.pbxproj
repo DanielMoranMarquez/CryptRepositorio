@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B50860129F7D0D300FBF07D /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50860029F7D0D300FBF07D /* String+.swift */; };
 		2B55A57729F2AE51009D9D8C /* Script in Resources */ = {isa = PBXBuildFile; fileRef = 2B55A57629F2AE51009D9D8C /* Script */; };
-		2B55A57929F2B273009D9D8C /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B55A57829F2B273009D9D8C /* Keys.swift */; };
+		2BBCFAD629F7D7B60064BCB5 /* AES256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCFAD529F7D7B60064BCB5 /* AES256.swift */; };
 		2BE40CF629F1728300AB6CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE40CF529F1728300AB6CA7 /* AppDelegate.swift */; };
 		2BE40CF829F1728300AB6CA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE40CF729F1728300AB6CA7 /* SceneDelegate.swift */; };
 		2BE40CFA29F1728300AB6CA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE40CF929F1728300AB6CA7 /* ViewController.swift */; };
@@ -18,8 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B50860029F7D0D300FBF07D /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		2B55A57629F2AE51009D9D8C /* Script */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Script; sourceTree = "<group>"; };
-		2B55A57829F2B273009D9D8C /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		2BBCFAD529F7D7B60064BCB5 /* AES256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES256.swift; sourceTree = "<group>"; };
 		2BE40CF229F1728300AB6CA7 /* Crypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE40CF529F1728300AB6CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BE40CF729F1728300AB6CA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,19 +43,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B55A56C29F27A34009D9D8C /* Secrets */ = {
+		2B5085FF29F7D04D00FBF07D /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				2B55A57829F2B273009D9D8C /* Keys.swift */,
+				2B50860029F7D0D300FBF07D /* String+.swift */,
+				2BBCFAD529F7D7B60064BCB5 /* AES256.swift */,
 			);
-			path = Secrets;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		2BE40CE929F1728300AB6CA7 = {
 			isa = PBXGroup;
 			children = (
 				2B55A57629F2AE51009D9D8C /* Script */,
-				2B55A56C29F27A34009D9D8C /* Secrets */,
 				2BE40CF429F1728300AB6CA7 /* Crypt */,
 				2BE40CF329F1728300AB6CA7 /* Products */,
 			);
@@ -70,6 +72,7 @@
 		2BE40CF429F1728300AB6CA7 /* Crypt */ = {
 			isa = PBXGroup;
 			children = (
+				2B5085FF29F7D04D00FBF07D /* Extension */,
 				2BE40CF529F1728300AB6CA7 /* AppDelegate.swift */,
 				2BE40CF729F1728300AB6CA7 /* SceneDelegate.swift */,
 				2BE40CF929F1728300AB6CA7 /* ViewController.swift */,
@@ -159,7 +162,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Script/Hidding.swift",
-				"$(SRCROOT)/Secrets/Keys.swift",
+				"$(SRCROOT)/Crypt/Extension/AES256.swift",
 			);
 			name = "Saving plist";
 			outputFileListPaths = (
@@ -177,9 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBCFAD629F7D7B60064BCB5 /* AES256.swift in Sources */,
 				2BE40CFA29F1728300AB6CA7 /* ViewController.swift in Sources */,
-				2B55A57929F2B273009D9D8C /* Keys.swift in Sources */,
 				2BE40CF629F1728300AB6CA7 /* AppDelegate.swift in Sources */,
+				2B50860129F7D0D300FBF07D /* String+.swift in Sources */,
 				2BE40CF829F1728300AB6CA7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
